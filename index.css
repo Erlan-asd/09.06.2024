@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1592px;
+    height: 5472px;
+    background-color: gainsboro;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: white;
+    width: 1592px;
+    height: 100px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+
+}
+
+#pages {
+    display: flex;
+    gap: 20px;
+}
+
+#firstSection {
+    position: relative;
+    height: 745px;
+
+}
+
+#firstSection__text {
+    position: absolute;
+    top: 370px;
+    left: 908px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#firstSection__text h1 {
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: left;
+
+}
+
+#firstSection__text h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+#firstSection__text span {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 30px;
+
+
+}
+
+#firstSection__btn {
+    display: flex;
+    gap: 35px
+}
+
+#firstSection__btn button {
+    width: 147px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+#secondSection{
+    width: 1592px;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#secondSection img {
+    width: 1133px;
+    height: 579px;
+}
